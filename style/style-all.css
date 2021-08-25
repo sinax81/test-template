@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Glory:wght@501&family=Work+Sans:wght@171;473;740;743;900&display=swap");
+html body div {
+  padding: 0%;
+  box-sizing: border-box;
+}
+html body {
+  background: linear-gradient(0deg, var(--color--2) 50%, var(--color--3) 50%);
+  background-repeat: repeat-y;
+  background-size: 100% 100vh;
+}
+body {
+  width: 60%;
+  direction: rtl;
+  margin: 0 20%;
+}
+* {
+  text-align: left;
+  --font--a: "Glory", sans-serif;
+  --font--b: "Archivo Black", sans-serif;
+  --color--1: #202020;
+  --color--2: #dfdfdf;
+  --color--3: #fdfdfd;
+  --color--4: #8d00a0;
+  --font-h: 65px;
+  --font-larg: 28px;
+  --font-text: 22px;
+  --font-small: 18px;
+}
