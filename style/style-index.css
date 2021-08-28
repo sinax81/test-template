@@ -62,7 +62,6 @@
   color: var(--color--1);
   text-align: left;
   border-bottom: 5px solid var(--color--1);
-  font-weight: 900;
   font-size: var(--font-h);
   font-family: var(--font--b);
 }
@@ -88,6 +87,9 @@
   width: 100%;
   height: 50vh;
 }
+.box-2 .p1 {
+  padding: 0 0px 0 15px;
+}
 .box-2 p {
   font-size: var(--font-small);
   padding: 0 10px;
@@ -105,24 +107,24 @@
   margin: 0;
   height: 100%;
   font-size: var(--font-small);
-
   font-family: var(--font--a);
 }
 .text-box div:nth-child(4) {
-  font-weight: 900;
+  font-family: var(--font--b);
 }
 .text-box .c2 {
   width: 25%;
   border: 5px solid var(--color--1);
-
   padding: 20px 20px 40px 20px;
+}
+.text-box .c3 {
+  font-family: var(--font--b);
 }
 .text-box .c2 p {
   font-size: var(--font-larg);
-  line-height: 30px;
-  font-weight: 900;
+  line-height: 35px;
   font-family: var(--font--b);
-  padding: 0px 20px 120px 0px;
+  padding: 10px 20px 120px 0px;
 }
 .btn {
   width: 100px;
@@ -131,6 +133,7 @@
   background: var(--color--1);
   color: var(--color--3);
   font-size: var(--font-small);
+  font-family: var(--font--a);
   border-radius: 0;
   margin-top: 100%;
   transition: 0.5s;
@@ -158,15 +161,14 @@
   position: absolute;
   left: 23%;
   top: 128%;
-  font-weight: 700;
   font-family: var(--font--b);
 }
 .box-3 .text-img span::before {
   content: "";
-  width: 130px;
+  width: 200px;
   position: absolute;
   left: 23%;
-  top: 135%;
+  top: 138%;
   height: 5px;
   border-bottom: 5px solid var(--color--1);
   position: absolute;
@@ -187,7 +189,7 @@
 }
 .box-3 .text-img .text-box-dark {
   width: 100%;
-  height: 40%;
+  height: 35%;
   padding: 25px 20px;
   background: var(--color--1);
 }
@@ -198,7 +200,7 @@
   position: relative;
   left: 0%;
   top: 0%;
-  margin: 20px 0;
+  margin: 10px 0;
   padding-right: 40px;
 }
 .btn-3 {
@@ -214,7 +216,7 @@
   display: block;
   text-align: center;
   float: left;
-  margin: 20px 0;
+  margin: 30px 0 0 0;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -228,23 +230,28 @@
   font-size: var(--font-small);
   font-family: var(--font--a);
 }
+.box-3 .text-box-2 img {
+  height: 110px;
+}
 .box-3 .text-box-2 h6 {
-  font-weight: 900;
   margin: 0px 0 30px 0;
-  padding: 0 20px;
+  padding: 0 10px;
+  font-family: var(--font--b);
+  font-size: var(--font-small);
 }
 .box-3 .text-box-2 p:nth-child(1) {
   border-top: 5px solid var(--color--1);
-  padding: 40px 20px 0 20px;
+  padding: 40px 10px 0 10px;
 }
 .box-3 .text-box-2 p {
-  margin: 20px 0;
+  font-size: var(--font-small);
+  margin: 0;
   padding: 0 10px;
   overflow: hidden;
 }
 .btn-2 {
   width: 100px;
-  margin: 0;
+  margin: 30px 0 0 0;
   padding: 0;
   color: var(--color--3);
   font-size: var(--font-small);
@@ -281,7 +288,6 @@
   color: var(--color--1);
   padding: 20px 50px;
   border: 5px solid var(--color--1);
-  font-weight: 700;
   top: 215%;
   z-index: 10;
   font-family: var(--font--b);
@@ -293,7 +299,7 @@
   width: 50%;
   height: 100%;
   font-family: var(--font--a);
-  padding: 10px 30px;
+  padding: 30px 30px 0;
 }
 .box-4::before {
   content: "";
@@ -305,10 +311,9 @@
   left: 21%;
 }
 .box-4 .box-4-text h6 {
-  font-size: var(--font-text);
-  font-weight: 900;
+  font-size: var(--font-small);
   color: var(--color--1);
-  font-family: var(--font--a);
+  font-family: var(--font--b);
   padding: 2px 10px;
 }
 .box-4 .box-4-text :nth-child(1) {
@@ -336,7 +341,7 @@
   cursor: pointer;
   transition: 0.5s;
   margin: 10px;
-  margin-top: 18%;
+  margin-top: 25%;
 }
 /*--shape--*/
 .shape-1 {
@@ -400,4 +405,15 @@
   margin: 0;
   transform: rotate(-90deg);
   font-size: var(--font-small);
+}
+.bg {
+  position: absolute;
+  left: 0%;
+  top: 233%;
+  margin: 0;
+  width: 82%;
+  height: 50vh;
+  background-color: var(--color--2);
+  z-index: -1;
+  opacity: 0.7;
 }

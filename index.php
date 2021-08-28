@@ -77,7 +77,7 @@
     </div>
     <!---------------------------------------------------------------------slider-->
     <div class="box-2">
-      <p>title</p>
+      <p class="p1">title</p>
       <div class="text-box">
         <div class="c2">
           <p>
@@ -91,6 +91,7 @@
           <p>
             The PCR testing, which is the NAAT testing or that tests the nucleic
             acid of the virus itself, are the most sensitive ones. And those,
+            acid of the virus itself, are the most sensitive ones. And those,
             
           </p>
         </div>
@@ -98,14 +99,14 @@
           <p>
             The PCR testing, which is the NAAT testing or that tests the nucleic
             acid of the virus itself, are the most sensitive ones. And those,
-            The PCR testing, which is the NAAT testing or that tests the nucleic
+            The PCR testing, whihe PCR testing, which is the NAAT testing or that tests the nucleiche PCR testing, which is the NAAT testing or that tests the nucleicch is the NAAT testing or that tests the nucleic
             
           </p>
         </div>
         <div>
-          <p>
+          <p class="c3">
             The PCR testing, which is the nucleic the NAAT testing or that tests
-            the nucleic<br />
+            the nucleicThe PCR testing, which is the  <br />
 
             <a class="btn"> more</a>
           </p>
@@ -117,13 +118,15 @@
       <div class="text-box-2">
         <p>TITLE</p>
         <h6>acid of the virus itselfacid of the virus itself</h6>
-        <img class="w-100 mb-2" src="img/02.jpg" alt="img" />
+        <img class="w-100 mb-3" src="img/02.jpg" alt="img" />
         <p>
-        acid of the virus itself, are the most sensitive ones. And those, acid
- of the virus itself, are the most sen the virus itse the virus
- itsesitive ones. And those, The PCR testing, which is the NAAT testing
- or that tests the nucleic acid of the virus i
-
+        acid of theor that tests the nucleic acid of the virus i
+         virus itself, are the most sensitive ones. And those, acid
+        of the virus itself, are the most sen the virus itse the virus
+        itsesitive ones. And those, The PCRor that tests the nucleic acid 
+        of the virus i testing, which is the NAAT testing
+        or that tests the nucleic acid of the virus ior that tests the
+         nucleic acid of the virus itests the
         </p>
         <a class="btn-2"> more</a>
       </div>
@@ -131,14 +134,18 @@
         <p>TITLE</p>
         <h6>acid of the virus itselfacid of the virus itself</h6>
         <p>
-          acid of the virus itself, are the most sensitive ones. And those, acid
-          of the virus itself, are the most sen the virus itse the virus
-          itsesitive ones. And those, The PCR testing, which is the NAAT testing
-          or that tests the nucleic
+        acid of theor that tests the nucleic acid of the virus i
+        virus itself, are the most sensitive ones. And those, acid
+        of the virus itself, are the most sen the virus itse the virus
+        itsesitive ones. And those, The PCRor that tests the nucleic acid 
+        of the virus i testing, which is the NAAT testing
+        or that tests the nucleic acid of the virus ior that tests the
+        nucleic acid of the virus itests the
         </p>
+        <br/>
         <p>
           itsesitive ones. And those, The PCR testing, which is the NAAT testing
-          or that tests the nucleic itsesitive ones.itsesitive ones. And thoseitsesitive ones. And those, The PCR 
+          or that tests the nucleic itsesitive ones.itsesitive ones. And thoseitsesitive ones 
         </p>
         <a class="btn-2"> more</a>
       </div>
@@ -149,10 +156,10 @@
         <img src="img/06.jpg" alt="img" />
         <div class="text-box-dark">
           <p class="text">
-            acid of the virus itself, are the most sensitive ones. And those,
-            acid of the virus itself, are the most sen the virus itse the virus
-            itsesitive ones. And those, The PCR testing, which is the NAAT
-            testing or that tests the nucleic
+          testing or that tests the nucleic acid of the virus itself, are the most sensitive ones. And those,
+            acid of the virus testing or that tests the nucleic The PCR testing itself, are the most sen the virus itse the virus
+            itsesitive ones. And those,testing or that tests the nucleic The PCR testing
+           
           </p>
           <a class="btn-3"> more</a>
         </div>
@@ -187,6 +194,7 @@
     <span class="shape-5">05mm</span>
     <span class="shape-6">title</span>
     <span class="shape-7">text</span>
+    <span class="bg"></span>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
